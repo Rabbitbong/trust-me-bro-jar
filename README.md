@@ -2,6 +2,8 @@
 
 Elasticsearch License Forge Tool - generates valid ES licenses signed with your own RSA private key.
 
+Full writeup: [zip -j trust_me_bro.jar - How One Command Cracks Elasticsearch Enterprise](https://www.undefinedbehaviors.com/cracking-elk)
+
 ## What this does
 
 Elasticsearch's licensing system trusts a single `public.key` file inside an unsigned JAR archive. Replace it with your own public key, and ES will accept licenses signed with your private key. No code patching, no decompilation, no bytecode modification.
